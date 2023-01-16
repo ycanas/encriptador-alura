@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: lavender;
+}
+
+.logo{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    position: absolute;
+}
+
+.input-content{
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    color: rgb(14, 43, 105);
+    background-color: lavender;
+}
+
+.output{
+    width: 28%;
+    height: 90vh;
+    float: right;
+    display: flex;
+    margin-top: 5vh;
+    margin-right: 1%;
+    border-radius: 2rem;
+    background-color: ghostwhite;
+}
+
+.output-js{
+    margin: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.p-js{
+    display: inline;
+}
+
+.btn-copy{
+    font-size: 1.5rem;
+}
+
+.img-copy{
+    vertical-align: middle;
+    width: 1.2em;
+}
+
+.btn-copy:hover{
+    cursor: pointer;
+}
+
+.output-content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.info{
+    margin-top: 9rem;
+    color: dimgrey;
+    font-size: 0.8em;
+    margin-left: 10rem;
+}
+
+.info-img{
+    width: 1.5em;
+    opacity: 80%;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+.info-img:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.btn-blue{
+    color: white;
+    padding: 1rem 0;
+    min-width: 15rem;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    margin-right: 0.5rem;
+    border-color: rgb(14, 43, 105);
+    background-color: rgb(14, 43, 105);
+}
+
+.btn-grey{
+    padding: 1rem 0;
+    font-size: 1.5em;
+    min-width: 15rem;
+    border-radius: 0.5em;
+    color: rgb(14, 43, 105);
+    background-color: lightgrey;
+    border-color: rgb(14, 43, 105);
+}
+
+.btn-blue:hover, .btn-grey:hover{
+    opacity: 95%;
+    cursor: pointer;
+}

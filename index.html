@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Yair Cañas">
+    <meta name="aplication-name" content="Encriptador - Desencriptador de texto">
+    <meta name="description" content="Encriptador - Desencriptador de texto, Challenge #1 AluraLatam - Oracle">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Fjalla+One&family=Roboto+Slab&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/key.png">
+    
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="https://www.aluracursos.com/"><img src="img/logo.png" alt="logo alura"></a>
+    </header>
+
+    <main>
+        <textarea class="input-content" id="input" cols="35" rows="6" placeholder="Ingrese el texto aquí" spellcheck="false"></textarea>
+    
+        <section id="ouput" class="output">
+            <div class="output-js" id="output-js">
+                <p class="p-js" id="text-js"></p>
+                <button class="btn-copy" id="btn-copy"><img class="img-copy" src="img/copy.png" alt="logo copiar"></button>
+            </div>
+
+            <div id="empty" class="output-content">
+                <img src="img/muñeco.png" alt="muñeco">
+                <p>
+                    <b>Ningún mensaje fue encontrado</b><br>
+                    Ingresa el texto que desees encriptar o desencriptar
+                </p>
+            </div>
+        </section>
+
+        <p class="info"><img class="info-img" src="img/info.png" alt="información">Solo letras minúsculas y sin acentos</p>
+
+        <section class="buttons">
+            <button class="btn-blue" id="btn-encrypt">Encriptar</button>
+            <button class="btn-grey" id="btn-decrypt">Desencriptar</button>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
